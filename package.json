@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "starts": "webpack-dev-server --mode development --open ",
     "postinstall":"webpack -p",
-    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js"
+    "start": "webpack -p --progress && node server.js"
   },
   "author": "ayah alrifai",
   "license": "ISC",
