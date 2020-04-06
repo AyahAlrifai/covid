@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>covid-19</title>
+    <link rel="shortcut icon" href="img/2.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-color: #0e0b16;">
+    <div class="headers">
+      <div>
+        <boald>covid-19 virus</boald>
+      </div>
+      <div>
+        <boald>STAY INFORMED</boald>
+      </div>
+      <img src="img/map.webp" alt="" width="66%" >
+    </div>
+        <table class="ttable table table-hover" id="table" style="color: #101357;">
+          <thead>
+            <tr>
+              <th id="country">
+                Country
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+              <th id="total-cases">
+                Total cases
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+              <th class="new" id="new-cases">
+                New cases
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+              <th id="active-cases">
+                Active cases
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+              <th class="recovered" id="recovered-cases">
+                recovered cases
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+              <th id="critical-cases">
+                Critical cases
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+              <th class="death" id="total-death">
+                Total deaths
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+              <th id="new-death">
+                New deaths
+                <br>
+                <i class='fab fas fa-angle-up' style='font-size:18px'></i>
+                <i class='fab fas fa-angle-down' style='font-size:18px'></i>
+              </th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <!--
+            <tr>
+            <td>${}</td>
+            <td>${}</td>
+            <td>${}</td>
+            <td>${}</td>
+            <td class="recovered">${}</td>
+            <td>${}</td>
+            <td class="death">${}</td>
+            <td>${}</td>
+            </tr>
+          -->
+          </tbody>
+        </table>
+  </body>
+</html>

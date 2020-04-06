@@ -1,0 +1,68 @@
+.headers {
+  text-align: center;
+  color: #fbaf08;
+  background-color: #101357;
+  text-shadow: 14px 12px 5px #fba508;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 3em;
+  margin-bottom:2%;
+  font-family: serif;
+}
+
+.death {
+  background-color: #E97F7F;
+
+}
+
+.recovered {
+  background-color: #007f4f;
+}
+
+.new {
+  background-color: #fbaf08;
+
+}
+
+tbody {
+    display:block;
+    height:600px;
+    overflow:auto;
+}
+thead {
+  overflow:scroll;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+
+}
+thead {
+
+}
+
+.ttable {
+  text-align: center;
+  background-color: #fea49f;
+  border-radius: 10px;
+  margin-bottom:4%;
+  font-size: 2ex;
+}
+
+.loader {
+  text-align: center;
+}
+
+  .loader svg {
+    height: 3rem;
+    width:3rem;
+    fill: #101357;
+    transform-origin: 44% 50%;
+    animation: rotate 1.5s infinite linear; }
+    @keyframes rotate {
+      0% {
+        transform: rotate(0); }
+      100% {
+        transform: rotate(360deg); } }
