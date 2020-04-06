@@ -6,7 +6,7 @@
   border-radius: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom:2%;
   font-family: serif;
 }
@@ -30,9 +30,6 @@ tbody {
     height:600px;
     overflow:auto;
 }
-thead {
-  overflow:scroll;
-}
 thead, tbody tr {
     display:table;
     width:100%;
@@ -44,11 +41,10 @@ thead {
 }
 
 .ttable {
-  text-align: center;
   background-color: #fea49f;
   border-radius: 10px;
   margin-bottom:4%;
-  font-size: 2ex;
+  font-size: 1ex;
 }
 
 .loader {
